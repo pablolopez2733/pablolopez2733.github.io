@@ -1,7 +1,7 @@
 layout: sidebar
 style: light
 
-plugins:
+plugins: 
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
@@ -10,7 +10,7 @@ permalink: /:year/:month/:day/:title/
 
 defaults:
   -
-    scope:
+    scope: 
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -21,13 +21,13 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 9 
   exclude:
-    archived: false
-    forks: true
-    projects:
+    archived: false 
+    forks: false
+    projects: 
     # - repo-name
-
+  
 about:
   - name: D
     position: C
@@ -43,56 +43,6 @@ contact:
     position: C
     period: O
 
-social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  linkedin: pablo-lópez-landeros-423060157/
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  twitter: Landeros_p33
-  # unsplash: your_username
-  # vk: your_username
-  website: http://pablolopez2733.github.io
-  # youtube: your_username
-
-topics:
-
-
-
-  - name: R
-    web_url: https://github.com/topics/r
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png
-
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
-  - name: SQL
-    web_url: https://github.com/topics/sql
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
-
-  - name: Javascript
-    web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
-
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: HTML
-    web_url: https://github.com/topics/html
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
-
-  - name: Matlab
-    web_url: https://github.com/topics/matlab
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png
-
-
 works:
   - name: Data Analysis Intern
     position: • Mexico City, Mexico
@@ -101,45 +51,83 @@ works:
 
   - name: Individual Math and Coding Classes
     position: • Mexico City, Mexico
-    position2: Algebra, Physics, Chemistry, CS, Calculus
+    position2: Algebra, Calculus, Data Structures, Chemistry, Physics
     period: October 2017 - Present
 
-  - name:  Vice President
+  - name: Vice President 
     position: • Mexico City, Mexico
     position2: Sports Analytics Group @ ITAM
-    period: July 2020 - Present
+    period: June 2020 - Present
 
-  - name:  Game Data Analysis
-    position: • Mexico City, Mexico
-    position2: Modern American School
-    period: January 2020 - Present
-
-  - name:  Writer and Founder
+  - name: Writer and Founder
     position: • Mexico City, Mexico
     position2: 9plus6
-    period: January 2020 - Present
+    period: December 2019 - Present
 
 
 education:
 
   - name: Instituto Tecnológico Autónomo de México, ITAM • Mexico City, Mexico
     position: B.S. in Applied Mathematics with Honorable Mention •  Minor in Computer Science
-    position2: Undergraduate Thesis - Modelling Basketball as a Markov Process estimating Transition Probabilities through Regression Analysis
+    position2: Undergraduate Thesis - Modelling Basketball as a Markov Process estimating transition probabilities through Regression Analysis.
     period: September 2017 - December 2020
 
-  - name: Universidad Anaáhuac México Sur, UAMS • Mexico City, Mexico
-    position: B.S. in Actuarial Science •  Transfered after two semesters
+
+  - name: Universidad Anahuac Mexico Sur, UAMS • Mexico City, Mexico
+    position: B.S. in Actuarial Science •  Transfered after 2 semesters
     period: September 2016 - May 2017
   
   - name: Modern American School • Mexico City, Mexico
-    position: High School Diploma •  GPA-9/10
+    position: High School Diploma • GPA-9/10
     period: September 2012 - May 2015
+
+  - name: Cambridge University • Cambridge, UK
+    position: Proficiency Certificate in English (C2)
+    period: April 2015
   
-  - name: Cambriddge University • Cambridge, UK
-    position: Certificate in English Proficiency (C2)
-    period: September 2015
 
 
+topics:
+  - name: R
+    web_url: https://github.com/topics/R
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
 
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: SQL
+    web_url: https://github.com/topics/sql
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
+
+  - name: HTML
+    web_url: https://github.com/topics/HTML
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+
+  - name: CSS
+    web_url: https://github.com/topics/CSS
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+social_media:
+  #stackoverflow: 13520207
+  linkedin: pablo-lópez-landeros-423060157/
+  # facebook: amanda.west.148553
+  # instagram: a_west213 
+  # behance: your_username
+  # dribbble: your_username
+  # hackerrank: your_username
+  # keybase: your_username
+  # mastodon: your_username
+  # telegram: your_username
+  twitter: Landeros_p33
+  # medium: amawest
+  # unsplash: your_username
+  # vk: your_username
+  website: https://pablolopez2733.github.io/
+  # youtube: your_username
 
 
