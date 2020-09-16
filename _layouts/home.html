@@ -105,9 +105,6 @@
 
         {% include projects.html %}
 
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
 
         {% if site.papers %}
           {% include papers.html %}
@@ -119,11 +116,11 @@
 
         {% if site.contact %}
           {% include contact.html %}
-      {% endif %}
+        {% endif %}
 
         {% if site.ending %}
-        {% include ending.html %}
-      {% endif %}
+          {% include ending.html %}
+        {% endif %}
 
       </div>
     </div>
