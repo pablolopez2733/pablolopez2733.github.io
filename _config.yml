@@ -28,6 +28,21 @@ projects:
     projects:
     # - repo-name
 
+about:
+  - name: D
+    position: C
+    period: O
+
+ending:
+  - name: D
+    position: C
+    period: O
+
+contact:
+  - name: D
+    position: C
+    period: O
+
 social_media:
   # behance: your_username
   # dribbble: your_username
@@ -103,6 +118,26 @@ works:
     position: • Mexico City, Mexico
     position2: 9plus6
     period: January 2020 - Present
+
+
+education:
+
+  - name: Instituto Tecnológico Autónomo de México, ITAM • Mexico City, Mexico
+    position: B.S. in Applied Mathematics with Honorable Mention •  Minor in Computer Science
+    position2: Undergraduate Thesis - Modelling Basketball as a Markov Process estimating Transition Probabilities through Regression Analysis
+    period: September 2017 - December 2020
+
+  - name: Universidad Anaáhuac México Sur, UAMS • Mexico City, Mexico
+    position: B.S. in Actuarial Science •  Transfered after two semesters
+    period: September 2016 - May 2017
+  
+  - name: Modern American School • Mexico City, Mexico
+    position: High School Diploma •  GPA-9/10
+    period: September 2012 - May 2015
+  
+  - name: Cambriddge University • Cambridge, UK
+    position: Certificate in English Proficiency (C2)
+    period: September 2015
 
 
 
