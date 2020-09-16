@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -35,7 +35,7 @@ social_media:
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: pablo-lópez-landeros-423060157/
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -78,7 +78,31 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png
 
 
+works:
+  - name: Data Analysis Intern
+    position: • Mexico City, Mexico
+    position2: KPMG Mexico
+    period: July 2019 - February 2020
 
+  - name: Individual Math and Coding Classes
+    position: • Mexico City, Mexico
+    position2: Algebra, Physics, Chemistry, CS, Calculus
+    period: October 2017 - Present
+
+  - name:  Vice President
+    position: • Mexico City, Mexico
+    position2: Sports Analytics Group @ ITAM
+    period: July 2020 - Present
+
+  - name:  Game Data Analysis
+    position: • Mexico City, Mexico
+    position2: Modern American School
+    period: January 2020 - Present
+
+  - name:  Writer and Founder
+    position: • Mexico City, Mexico
+    position2: 9plus6
+    period: January 2020 - Present
 
 
 
